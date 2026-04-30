@@ -15,19 +15,29 @@
         {
           "id": "original",
           "name": "Оригинал",
-          "download": [
-            "https://mirror1.site/cs16.zip",
-            "https://mirror2.site/cs16.zip"
-          ],
-          "launch": "hl.exe --game cstrike"
+          "mirrors": [
+            {
+              "url": "https://cs16planet.ru/download/cstrike_portable.zip",
+              "root": "cstrike_portable",
+              "launch": "hl.exe --game cstrike"
+            },
+            {
+              "url": "https://dl2.cstrike.su/cs16rus.zip",
+              "root": "",
+              "launch": "hl.exe --game cstrike"
+            }
+          ]
         },
         {
           "id": "skins1",
           "name": "Набор скинов 1",
-          "download": [
-            "https://mirror1.site/cs16-skins.zip"
-          ],
-          "launch": "hl.exe --game cstrike"
+          "mirrors": [
+            {
+              "url": "https://mirror1.site/cs16-skins.zip",
+              "root": "",
+              "launch": "hl.exe --game cstrike"
+            }
+          ]
         }
       ]
     },
@@ -38,10 +48,13 @@
         {
           "id": "vanilla",
           "name": "Vanilla",
-          "download": [
-            "https://mirror.site/minecraft.zip"
-          ],
-          "launch": "java -jar minecraft.jar"
+          "mirrors": [
+            {
+              "url": "https://mirror.site/minecraft.zip",
+              "root": "",
+              "launch": "java -jar minecraft.jar"
+            }
+          ]
         }
       ]
     }
