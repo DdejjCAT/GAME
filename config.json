@@ -1,0 +1,49 @@
+{
+  "launcherVersion": "1.0",
+  "python": {
+    "required": true,
+    "version": "3.11",
+    "packages": [
+      "requests"
+    ]
+  },
+  "games": [
+    {
+      "id": "cs16",
+      "name": "Counter-Strike 1.6",
+      "mods": [
+        {
+          "id": "original",
+          "name": "Оригинал",
+          "download": [
+            "https://mirror1.site/cs16.zip",
+            "https://mirror2.site/cs16.zip"
+          ],
+          "launch": "hl.exe --game cstrike"
+        },
+        {
+          "id": "skins1",
+          "name": "Набор скинов 1",
+          "download": [
+            "https://mirror1.site/cs16-skins.zip"
+          ],
+          "launch": "hl.exe --game cstrike"
+        }
+      ]
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "mods": [
+        {
+          "id": "vanilla",
+          "name": "Vanilla",
+          "download": [
+            "https://mirror.site/minecraft.zip"
+          ],
+          "launch": "java -jar minecraft.jar"
+        }
+      ]
+    }
+  ]
+}
