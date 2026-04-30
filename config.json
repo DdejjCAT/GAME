@@ -1,12 +1,4 @@
 {
-  "launcherVersion": "1.0",
-  "python": {
-    "required": true,
-    "version": "3.11",
-    "packages": [
-      "requests"
-    ]
-  },
   "games": [
     {
       "id": "cs16",
@@ -15,33 +7,18 @@
         {
           "id": "original",
           "name": "Оригинал",
-          "download": [
-            "https://cs16planet.ru/download/cstrike_portable.zip",
-            "https://dl2.cstrike.su/cs16rus.zip"
-          ],
-          "launch": "hl.exe --game cstrike"
-        },
-        {
-          "id": "skins1",
-          "name": "Набор скинов FENST4R",
-          "download": [
-            "https://mirror1.site/cs16-skins.zip"
-          ],
-          "launch": "hl.exe --game cstrike"
-        }
-      ]
-    },
-    {
-      "id": "minecraft",
-      "name": "Minecraft",
-      "mods": [
-        {
-          "id": "vanilla",
-          "name": "Vanilla",
-          "download": [
-            "https://mirror.site/minecraft.zip"
-          ],
-          "launch": "java -jar minecraft.jar"
+          "mirrors": [
+            {
+              "url": "https://cs16planet.ru/download/cstrike_portable.zip",
+              "root": "cstrike_portable",
+              "launch": "hl.exe --game cstrike"
+            },
+            {
+              "url": "https://dl2.cstrike.su/cs16rus.zip",
+              "root": "",
+              "launch": "hl.exe --game cstrike"
+            }
+          ]
         }
       ]
     }
