@@ -19,7 +19,7 @@
             {
               "url": "https://cs16planet.ru/download/cstrike_portable.zip",
               "root": "cstrike_portable/root",
-              "launch": "hl.exe --game cstrike"
+              "launch": "hl.exe -game cstrike -appid 10 -noforcemparms -noforcemaccel"
             },
             {
               "url": "https://dl2.cstrike.su/cs16rus.zip",
