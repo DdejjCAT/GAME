@@ -33,8 +33,7 @@
           "url": "https://dl.all-cs.ru/cs16/weapon-skins/packs/marmok-inventory.rar",
           "search_folders": [
             "models",
-            "sound",
-            "sprites"
+            "sound"
           ],
           "target": "cstrike"
         }
