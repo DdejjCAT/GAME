@@ -18,7 +18,7 @@
           "mirrors": [
             {
               "url": "https://cs16planet.ru/download/cstrike_portable.zip",
-              "root": "cstrike_portable",
+              "root": "cstrike_portable/root",
               "launch": "hl.exe --game cstrike"
             },
             {
