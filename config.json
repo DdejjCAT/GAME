@@ -11,33 +11,32 @@
     {
       "id": "cs16",
       "name": "Counter-Strike 1.6",
+      "base": {
+        "mirrors": [
+          {
+            "url": "https://cs16planet.ru/download/cstrike_portable.zip",
+            "root": "cstrike_portable",
+            "launch": "hl.exe --game cstrike"
+          }
+        ]
+      },
       "mods": [
         {
           "id": "original",
-          "name": "Оригинал",
-          "mirrors": [
-            {
-              "url": "https://cs16planet.ru/download/cstrike_portable.zip",
-              "root": "cstrike_portable/root",
-              "launch": "hl.exe -game cstrike -appid 10 -noforcemparms -noforcemaccel"
-            },
-            {
-              "url": "https://dl2.cstrike.su/cs16rus.zip",
-              "root": "",
-              "launch": "hl.exe --game cstrike"
-            }
-          ]
+          "type": "base",
+          "name": "Оригинал"
         },
         {
-          "id": "skins1",
-          "name": "Набор скинов 1",
-          "mirrors": [
-            {
-              "url": "https://mirror1.site/cs16-skins.zip",
-              "root": "",
-              "launch": "hl.exe --game cstrike"
-            }
-          ]
+          "id": "marmok",
+          "type": "patch",
+          "name": "Marmok Inventory",
+          "url": "https://dl.all-cs.ru/cs16/weapon-skins/packs/marmok-inventory.rar",
+          "search_folders": [
+            "models",
+            "sound",
+            "sprites"
+          ],
+          "target": "cstrike"
         }
       ]
     },
