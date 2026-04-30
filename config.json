@@ -16,14 +16,14 @@
           "id": "original",
           "name": "Оригинал",
           "download": [
-            "https://mirror1.site/cs16.zip",
-            "https://mirror2.site/cs16.zip"
+            "https://cs16planet.ru/download/cstrike_portable.zip",
+            "https://dl2.cstrike.su/cs16rus.zip"
           ],
           "launch": "hl.exe --game cstrike"
         },
         {
           "id": "skins1",
-          "name": "Набор скинов 1",
+          "name": "Набор скинов FENST4R",
           "download": [
             "https://mirror1.site/cs16-skins.zip"
           ],
